@@ -1,0 +1,46 @@
+{
+    "name": "@somushq/vue-friendly-captcha",
+    "version": "1.0.0",
+    "main": "./dist/vue-friendly-captcha.umd.min.js",
+    "module": "./dist/vue-friendly-captcha.common.js",
+    "author": "József Sallai<jozsef@somus.app>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SomusHQ/vue-friendly-captcha.git",
+        "web": "https://github.com/SomusHQ/vue-friendly-captcha",
+        "directory": "packages/vue2"
+    },
+    "bugs": {
+        "url": "https://github.com/SomusHQ/vue-friendly-captcha/issues"
+    },
+    "files": [
+        "dist",
+        "types/index.d.ts"
+    ],
+    "types": "./types/index.d.ts",
+    "scripts": {
+        "lint": "eslint --ext .js,.vue src",
+        "build:vue": "vue-cli-service build --name vue-friendly-captcha --target lib src/main.js",
+        "build:cleanup": "rm -rf dist/demo.html",
+        "build": "npm run build:vue && npm run build:cleanup",
+        "prepack": "npm run build"
+    },
+    "dependencies": {
+        "friendly-challenge": "^0.9.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "core-js": "^3.8.3",
+        "eslint": "^8.9.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-vue": "^8.5.0",
+        "prettier": "^2.5.1",
+        "vue": "^2.6.14",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "peerDependencies": {
+        "vue": "^2.0.0"
+    }
+}

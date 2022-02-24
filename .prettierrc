@@ -1,0 +1,9 @@
+{
+    "trailingComma": "all",
+    "quoteProps": "preserve",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "vueIndentScriptAndStyle": true,
+    "htmlWhitespaceSensitivity": "strict"
+}

@@ -1,0 +1,9 @@
+{
+    "npmClient": "npm",
+    "version": "independent",
+    "command": {
+        "publish": {
+            "verifyAccess": false
+        }
+    }
+}

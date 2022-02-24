@@ -1,0 +1,24 @@
+{
+    "name": "vue-friendly-captcha",
+    "version": "1.0.0",
+    "description": "Friendly Captcha component for Vue 2 and 3.",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SomusHQ/vue-friendly-captcha.git"
+    },
+    "author": "József Sallai <jozsef@somus.app>",
+    "organization": "SomusHQ",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SomusHQ/vue-friendly-captcha/issues"
+    },
+    "homepage": "https://github.com/SomusHQ/vue-friendly-captcha#readme",
+    "scripts": {
+        "build": "lerna run build --stream",
+        "lint": "lerna run lint --stream"
+    }
+}
