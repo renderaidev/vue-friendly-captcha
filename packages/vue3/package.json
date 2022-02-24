@@ -1,6 +1,6 @@
 {
     "name": "@somushq/vue3-friendly-captcha",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./dist/vue3-friendly-captcha.umd.js",
     "module": "./dist/vue3-friendly-captcha.es.js",
     "author": "József Sallai<jozsef@somus.app>",
@@ -24,6 +24,8 @@
         "prepack": "npm run build"
     },
     "devDependencies": {
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11",
         "@typescript-eslint/parser": "^5.12.1",
         "@vitejs/plugin-vue": "^1.9.3",
         "eslint": "^8.9.0",

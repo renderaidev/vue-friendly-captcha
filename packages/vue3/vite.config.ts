@@ -17,16 +17,16 @@ export default defineConfig({
             name: 'VueFriendlyCaptcha',
             fileName: (format) => `vue3-friendly-captcha-${format}.js`,
         },
-    },
-    rollupOptions: {
-        external: ['vue'],
-        output: {
-            globals: {
-                vue: 'Vue',
+        rollupOptions: {
+            external: ['vue'],
+            output: {
+                globals: {
+                    vue: 'Vue',
+                },
             },
         },
     },
     resolve: {
         dedupe: ['vue'],
     },
-} as any);
+});
