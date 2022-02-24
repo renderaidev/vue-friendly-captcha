@@ -15,7 +15,7 @@ export default defineConfig({
         lib: {
             entry: './src/VueFriendlyCaptcha.vue',
             name: 'VueFriendlyCaptcha',
-            fileName: (format) => `vue3-friendly-captcha-${format}.js`,
+            fileName: (format) => `vue3-friendly-captcha.${format}.js`,
         },
         rollupOptions: {
             external: ['vue'],

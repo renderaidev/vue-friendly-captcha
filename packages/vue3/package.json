@@ -1,6 +1,6 @@
 {
     "name": "@somushq/vue3-friendly-captcha",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "./dist/vue3-friendly-captcha.umd.js",
     "module": "./dist/vue3-friendly-captcha.es.js",
     "author": "József Sallai<jozsef@somus.app>",
